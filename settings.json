@@ -1,0 +1,68 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "D2CodingLigature Nerd Font, Input Mono, JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.renderWhitespace": "all",
+  "editor.linkedEditing": true,
+  "editor.fontSize": 13,
+  "editor.stickyScroll.enabled": false,
+
+  // explorer
+  "explorer.compactFolders": false,
+  "explorer.fileNesting.enabled": true,
+
+  // git
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+
+  // language
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.inlayHints.parameterNames.enabled": "all",
+
+  // prettier
+  "prettier.printWidth": 250,
+  "prettier.singleQuote": true,
+
+  // window
+  "window.commandCenter": false,
+  "window.nativeTabs": true,
+
+  //  workbench
+  "workbench.layoutControl.enabled": false,
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.settings.applyToAllProfiles": [],
+  "workbench.startupEditor": "none",
+
+  // etc
+  "emmet.showSuggestionsAsSnippets": true,
+  "terminal.integrated.fontFamily": "Hack Nerd Font",
+  "colorize.include": ["**/*.css", "**/*.scss", "**/*.sass", "**/*.less", "**/*.styl", "**/*.js", "**/*.ts", "**/*.jsx", "**/*.tsx"],
+
+  // vim
+  "vim.smartRelativeLine": true,
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.color": "#a9dc7660",
+  "vim.highlightedyank.duration": 250,
+  "vim.useSystemClipboard": true,
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["g", "h"],
+      "commands": ["editor.action.showDefinitionPreviewHover"]
+    },
+    {
+      "before": ["g", "q"],
+      "commands": ["editor.action.quickFix"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.view.explorer"]
+    }
+  ],
+  "vim.leader": " "
+}
